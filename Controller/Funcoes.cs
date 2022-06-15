@@ -74,7 +74,7 @@ namespace Projeem.Controller
             grp = null;
             return lmvtc;
 
-        } // Fim do Método OtimizaDebito();
+        } 
 
 
 
@@ -146,12 +146,8 @@ namespace Projeem.Controller
 								         vSaldo.ToString("0.00000"),
 								         vMedia.ToString("0.00000"),
 								         (k-1).ToString()}));
-                                         /* -------------- */
-                } // Fim do For;   
-            } // Fim do IF;            
-        }//Fim do Método MontaMapaCapi;
-
-
-        // -------------------- //
-    }// Fim da Classe Fuñcoes;
-}// Fim do NameSpace;
+                } 
+            } 
+        }
+    }
+}
